@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
@@ -15,17 +15,17 @@
         let num1 = prompt("Digite o primeiro valor:");
         let num2 = prompt("Digite o segundo valor:");
 
-        if (num1 < num2) {
+        if (num1 > num2) {
             let i = num1; //i vale 20 na primeira volta, na 1° ele é menor que 20 = verdadeiro
 
-            while (num1 <= num2) {
+            while (num1 >= num2) {
                 console.log("Valor: " + num1);
                 num1--; //atalho de i = i + 1, é literalmente um +1, i = 20 + 1; i = 21
             }
         } else {
             let i = num2; //i vale 20 na primeira volta, na 1° ele é menor que 20 = verdadeiro
 
-            while (num2 < num1) {
+            while (num2 >= num1) {
                 console.log("Valor: " + num2);
                 num2--;//atalho de i = i + 1, é literalmente um +1, i = 20 + 1; i = 21
             }
@@ -33,4 +33,4 @@
     </script>
 </body>
 
-</html> -->
+</html>
