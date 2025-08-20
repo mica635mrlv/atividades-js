@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(234, 234, 255);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 400px;
+    height: 450px;
+    gap: 12px;
+    background-color: rgb(200, 200, 255);
+    
+}
+
+.container-input input {
+    height: 30px;
+}
+
+.container-input button {
+    height: 30px;
+    background-color: blueviolet;
+    box-shadow: none;
+}
+
+.quadrado {
+    width: 230px; /* Define a largura do quadrado */
+    height: 250px; /* Define a altura do quadrado */
+    background-color: white; /* Define a cor de fundo como branca */
+    border: 1px solid black;/* Adiciona uma borda para visualização */
+    border-radius: 6px;
+  }
