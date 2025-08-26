@@ -4,13 +4,17 @@
     box-sizing: border-box;
 }
 
+:root {
+    --font-padrao: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 body {
     display: flex;
-    font-family: Arial, sans-serif;
     height: 100vh;
     justify-content: center;
     align-items: center;
     background-color: rgb(234, 234, 255);
+    font-family: var(--font-padrao);
 }
 
 .container {
@@ -18,29 +22,41 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border: 1px solid black;
+    border: 1px solid rgb(152, 141, 255);
     border-radius: 10px;
     width: 400px;
     height: 450px;
-    gap: 12px;
+    gap: 15px;
     background-color: rgb(200, 200, 255);
-    
 }
 
 .container-input input {
     height: 30px;
+    border: 1px solid rgb(152, 141, 255);
+    width: 165px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 15px;
 }
 
 .container-input button {
     height: 30px;
-    background-color: blueviolet;
-    box-shadow: none;
+    width: 80px;
+    background-color: rgb(152, 141, 255);
+    border: 1px solid rgb(152, 141, 255);
+    border-radius: 8px;
 }
 
 .quadrado {
-    width: 230px; /* Define a largura do quadrado */
-    height: 250px; /* Define a altura do quadrado */
-    background-color: white; /* Define a cor de fundo como branca */
-    border: 1px solid black;/* Adiciona uma borda para visualização */
-    border-radius: 6px;
-  }
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border: 1px solid rgb(152, 141, 255);
+    border-radius: 8px;
+}
+
+.texto {
+    margin: 12px;
+    font-size: 15px;
+    line-height: 20px;
+}
